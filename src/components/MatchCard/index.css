@@ -1,0 +1,37 @@
+/* Write your CSS here */
+.match-card {
+  list-style: none;
+  background-color: #1e293b;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+  margin-bottom: 20px;
+  width: 45%;
+  padding: 15px 25px 15px 25px;
+  border-radius: 15px;
+}
+.match-card-name {
+  font-size: 18px;
+  color: white;
+  text-align: center;
+}
+.match-card-result {
+  font-size: 16px;
+  color: white;
+  text-align: center;
+}
+.logo {
+  width: 70px;
+  height: 70px;
+}
+.match-status{
+  font-size: 18px;
+}
+.Won{
+ color:  #18ed66;
+}
+.Lost{
+  color: #e31a1a;
+}
